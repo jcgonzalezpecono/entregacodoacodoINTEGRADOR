@@ -1,0 +1,243 @@
+@media  (min-width:137px) and (max-width:576px) {
+                
+    .container {
+        justify-content:flex-start;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+
+    }
+    .container-menu{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        z-index: 3;
+        top: 80px;
+        left: 0;
+        justify-self: center;
+        background-color: rgba(32, 32, 32, 0.8);
+        padding: 0;
+        margin: 0;
+    }
+
+    .icono{
+        color: rgb(250, 252, 253);
+        display: flex;
+        position: relative;
+        right: 10px;
+        padding: 20px;
+    }
+
+    .header{                
+        justify-content: space-between;
+    }
+
+    .item-menu{
+        font-size: 25px;
+        gap: 10px;
+        padding: 3px;
+        color: beige;
+    }
+
+    .item-menu:hover{
+        background-color: green;
+        width: 100%;
+        text-align: center;
+    }
+    .item-menu:nth-child(5){
+        color: aliceblue;
+
+    }
+    .item-menu:nth-child(5):hover{
+        color: aliceblue;
+
+    }
+
+    .icono{
+        display: flex;
+    }
+    #container-menu{
+        display: none;
+    }
+    #container-menu:checked ~ .container-menu{
+        display: flex;
+    }
+
+    .portada-info{
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .info-portada{
+        
+        justify-content: center;
+        align-items: center;
+        bottom: auto;
+        right: auto;
+        text-align: center;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+        height: 317px;
+    }
+    .container-menu-footer{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;        
+        align-items: center;
+        padding: 20px;    
+    }
+    
+     .noti{
+        padding-left:  80px;
+        padding-right: 80px;
+     }   
+
+     .form{
+        padding: 20px;
+     }
+    
+}
+
+@media (min-width:577px) and (max-width:756px){
+    .medi-header{
+        width: 100%;
+    }
+   
+    .container {
+        justify-content:flex-start;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+
+    }
+    .container-menu{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        z-index: 3;
+        top: 80px;
+        left: 0;
+        justify-self: center;
+        background-color: rgba(32, 32, 32, 0.8);
+        padding: 0;
+        margin: 0;
+    }
+
+    .icono{
+        color: rgb(250, 252, 253);
+        display: flex;
+        position: relative;
+        right: 10px;
+        padding: 20px;
+    }
+
+    .header{                
+        justify-content: space-between;
+    }
+
+    .item-menu{
+        font-size: 25px;
+        gap: 10px;
+        padding: 3px;
+        color: beige;
+    }
+
+    .item-menu:hover{
+        background-color: green;
+        width: 100%;
+        text-align: center;
+    }
+    .item-menu:nth-child(5){
+        color: aliceblue;
+
+    }
+    .item-menu:nth-child(5):hover{
+        color: aliceblue;
+
+    }
+
+    .icono{
+        display: flex;
+    }
+    #container-menu{
+        display: none;
+    }
+    #container-menu:checked ~ .container-menu{
+        display: flex;
+    }
+
+    .portada-info{
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .info-portada{
+        
+        justify-content: center;
+        align-items: center;
+        bottom: auto;
+        right: auto;
+        text-align: center;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+        height: 317px;
+    }
+    .container-menu-footer{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;        
+        align-items: center;
+        padding: 20px;    
+    }
+    
+     .noti{
+        padding-left:  150px;
+        padding-right: 150px;
+     }   
+
+     .form{
+        padding: 20px;
+     }
+    
+}
+
+@media (min-width:756px) and (max-width:990px){
+    .header{
+        background-color: rgb(49, 47, 47);
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        gap:80px ;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container-menu{
+        display: flex;
+        gap: 10px;
+    }
+
+
+}
+
+    
+    
+
+
+

@@ -1,0 +1,342 @@
+
+        .header{
+            background-color: rgb(49, 47, 47);
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            gap:80px ;
+            padding-left: 50px;
+            padding-right: 50px;
+
+
+        }
+        .container-logo{
+            display: flex;            
+            align-items: center;   
+            padding-left: 30px;    
+        }
+
+        .container-menu{
+            display: flex;
+            gap: 20px;
+        }
+
+      
+        
+        label{
+            display: flex;           
+            align-items: center;
+            justify-items: center;
+            padding-right: 30px;
+        }
+           
+
+        .container-logo  img{
+            width: 140px;
+            height: 70px;
+        }
+        .container-logo  h4{
+            color: aliceblue;
+            font-size: 20px;
+        }
+
+        .item-menu{
+            color: rgb(169, 172, 175);
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .item-menu:hover{
+            color: aliceblue;
+            
+        }
+        .item-menu:nth-child(5){
+            color: darkgreen;
+        }
+        .item-menu:nth-child(5):hover{
+            color: rgb(28, 150, 79);
+
+        }
+
+        .menu-icono{
+            display: none;
+
+        }
+        #container-menu{
+            display: none;
+        }
+        
+        .icono{
+            display: none;
+        }
+
+       
+
+/*------fin de header -------*/  
+/*- ---- portada  ---*/
+
+        .portada-info{
+            display: flex;
+            align-items: baseline;
+            background: url(./assets/ba1.jpg);
+            width: 100%;
+            height: 600px;
+            background-size: cover;
+            position: relative;
+            z-index: 0;
+
+        }
+        .opaco{
+            background-color: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            height: 600px;
+        }
+        .info-portada{
+            display: flex;
+            flex-direction: column;
+            color: aliceblue;
+            width: 500px;
+            position: absolute;
+            z-index: 2;
+            bottom: 110px;
+            right: 120px;
+            text-align: end;
+        }
+
+        .info-portada h2{
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        .info-portada p{
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .btn{
+            display: flex;
+            background-color: rgb(5, 158, 5);
+            font-size: 15px;
+            font-weight: 500;
+            color: aliceblue;
+            border-radius: 10px;
+            padding: 5px;
+            justify-content: center;
+            align-content: center;
+            width: 150px;
+            height: 35px;
+            text-decoration: none;
+        }
+
+
+
+        .btn:nth-child(1){
+            background-color: transparent;
+            border: 2px solid rgb(236, 243, 236);
+        }
+        .btn:nth-child(1):hover{
+            background-color: rgb(5, 158, 5);
+            color: aliceblue;
+            border:none;
+        }
+        .btn:nth-child(2):hover{
+            background-color: yellow;
+            border:none;
+
+        }
+        
+
+
+        .botones{
+            display: flex;
+            gap: 20px;
+            justify-content: flex-end;
+        }
+
+        
+
+
+
+        /*----------------------*/
+
+          
+
+        
+        
+
+        .orador-img{
+            width: 100%;
+            height: 280px;
+
+        }
+
+        .datos{
+            display: flex;      
+            flex-direction: column;      
+            align-content: center;
+            justify-content: center;
+            padding: 0;
+            margin: 0;         
+            
+        }
+
+        .datos p{
+            font-size: 15px;
+            padding: 0;
+            margin: 0;
+        }
+        .datos h3{
+            font-size: 40px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .noti{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .noticias{
+            width: 100%;
+            height: 560px;
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;            
+            border: solid 1px gray;
+        }
+
+        
+        .dat{
+            padding-bottom: 10px;
+        }
+
+        .btns-orador{
+            display: flex;
+            gap: 10px;            
+        }
+
+        .orador-info{
+            padding-top: 25px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 5px;
+            
+        }
+
+        .btn-orador{
+            display: flex;
+            font-size: 12px;
+            padding: 1px;
+            justify-content: center;
+            align-content: center;
+            text-decoration: none;
+        }
+
+        .btn-orador:nth-child(1){
+            background-color: rgb(214, 183, 5);
+            color: black;
+            width: 70px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        
+        .btn-orador:nth-child(2){
+            background-color: rgb(5, 149, 168);
+            color: rgb(255, 255, 255);
+            width: 60px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        .orador-info p{
+            padding-top: 11px;
+            font-size: 13px;
+        }
+
+        .img-fluid{  
+            margin-top: 20px;
+            padding: 0;
+        }
+
+        
+        .container-viaje img{
+            width: 100%;
+            height: 350px;
+        }
+
+        .info-vaije{
+            color: aliceblue;
+            background-color:rgb(49, 47, 47);
+            height: 350px;
+            margin: 0;
+            margin-top: 20px;
+            padding: 0;
+            font-size: 15px;
+            padding: 8px;
+
+        }
+        .info-vaije span{
+            font-size: 30px;
+
+        }
+
+        .btn-viaje{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            background-color: transparent;
+            border: 1px solid white;
+            width: 110px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: aliceblue;
+            list-style: none;
+            
+        }
+
+        .btn-viaje:hover{
+            background-color: rgb(93, 189, 63) ;
+            color: aliceblue;
+            border: none;
+        }
+        .comentario{
+            margin-top: 10px;
+            width: 100%;
+            border-radius: 3px;
+
+        }
+
+    /*-----------------------------------*/
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        background-color: rgb(2, 19, 58);
+        height: 90px;
+    }
+    .container-menu-footer{
+        display: flex;
+        gap: 20px;
+        list-style: none;        
+    }
+
+    .item-menu-footer{
+        text-decoration: none;
+        color: rgb(159, 161, 163);
+        font-size: 15px;
+    }
+
+    .item-menu-footer:hover{
+        color: aliceblue;
+    }
+    
+    /*--------------------------------------------*/
+
+
+
+    
